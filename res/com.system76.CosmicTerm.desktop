@@ -1,10 +1,11 @@
 [Desktop Entry]
 Name=COSMIC Terminal
 Comment=Terminal emulator for the COSMIC desktop
-Exec=cosmic-term
+Exec=cosmic-term -e sh %F
 Terminal=false
 Type=Application
 StartupNotify=true
+MimeType=text/x-shellscript;
 Icon=com.system76.CosmicTerm
 Categories=COSMIC;System;TerminalEmulator;
 Keywords=Command;Shell;Terminal;CLI;
